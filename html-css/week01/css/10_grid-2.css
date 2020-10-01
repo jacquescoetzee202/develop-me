@@ -1,0 +1,75 @@
+body {
+	font-family: 'Josefin Slab', sans-serif;
+	line-height: 1.4;
+
+}
+
+.grey {color: grey;}
+.blue {color: lightseagreen;}
+
+p {
+    font-size: 1.3rem;
+}
+
+p span {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 6rem;
+    margin: 1rem;
+
+}
+
+li {
+    display: flex;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    /*grid-template-rows: repeat(8, 12rem);*/
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+li:nth-child(1) {
+    grid-row: 1 / 2;
+    grid-column: 1 / span 3;
+}
+
+li:nth-child(2) {
+    grid-row: 2 / 3;
+    grid-column: 2 / span 4;
+}
+
+li:nth-child(3) {
+    grid-row: 3 / 4;
+    grid-column: 5 / span 4;
+}
+
+li:nth-child(4) {
+    grid-row: 4 / 5;
+    grid-column: 4 / span 4;
+}
+
+li:nth-child(5) {
+    grid-row: 5 / 6;
+    grid-column: 1 / span 4;
+}
+
+li:nth-child(6) {
+    grid-row: 6 / 7;
+    grid-column: 2 / span 5;
+}
+
+li:nth-child(7) {
+    grid-row: 7 / 8;
+    grid-column: 5 / span 4;
+}
+
+li:nth-child(8) {
+    grid-row: 8 / 9;
+    grid-column: 3 / span 4;
+}
+
+li:nth-of-type(1n + 5) {
+    text-align: right;
+}
