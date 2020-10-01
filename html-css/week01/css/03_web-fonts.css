@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Josefin Slab";
+    src: url (../fonts/JosefinSlab-Bold.ttf) format("truetype");
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+header {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.article {
+    font-size: 2em;
+    line-height: 3;
+}
+
+li {
+    font-family: 'Josefin Slab', serif;
+}

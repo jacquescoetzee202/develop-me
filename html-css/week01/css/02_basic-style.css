@@ -1,0 +1,13 @@
+body {
+    background-color: red;
+}
+
+nav {
+    background: repeat-x url("../assets/smallDrops.png");
+}
+
+header {
+    border: 1rem dashed blue;
+}
+
+

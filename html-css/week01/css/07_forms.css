@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space space-around;
+    color: grey;
+    margin: auto;
+    width:70%;
+    height: 100vh;
+    font: 1.5rem "Comic Sans", sans-serif;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 180px;
+    background-color: hotpink;
+    color: white;
+    border: 2px solid rgb(126, 9, 126) ;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+
+}
+
+input[type="submit"]:hover {
+    width: 300px;
+    height: 4rem;
+    background-color: blue;
+}
