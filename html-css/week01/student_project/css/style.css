@@ -1,46 +1,144 @@
-.top {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
+/* || Fonts */
+
+    /* #1 Regular Weight*/
+@font-face {
+	font-family: "BrownStd";
+	font-style: normal;
+	font-weight: normal;
+    src: url("../fonts/BrownStd-Light.otf");
+}
+    
+    /* #2 Bold*/
+@font-face {
+	font-family: "BrownStd";
+	font-style: normal;
+	font-weight: bold;
+    src: url("../fonts/BrownStd-Bold.otf");
 }
 
-nav {
-    max-width: 750px;
-    width: 70%;
-    min-width: 600px;
-    display: flex;
-    justify-content: space-around;
-}
+    /* #2 general text*/
+@font-face {
+	font-family: "Monday";
+	font-style: normal;
+	font-weight: normal;
+    src: url("../fonts/Monday_Regular.otf");
+}    
 
-.list-nav {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+/* || General styles - styles applying accross site to h1 , h2 body ul etc..*/
+
+ul {
     list-style-type: none;
 }
 
-.logo-nav {
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 a {
     color: black;
     text-decoration: none;
 }
 
-.black-hl:hover {
-    background-color: black;
+h4 {
+    font-family: "BrownStd" , "Arial", sans-serif;
+    font-size: 0.8em;
+
 }
 
-.txt-white:hover {
-    color: white;
+h2 {
+    font-family: "BrownStd" , "Arial", sans-serif;
+    font-size: 1.2em;
 }
+
+/* || Utilities - utility classes such as all to CAPs */
 
 .yellow-hl:hover {
     background-color: rgb(255, 231, 20);
 }
 
+.caps {
+    text-transform: uppercase;
+}
+
+/* || sitewide - That might be things like the basic page layout, the header, navigation styling, and so on. */
+
+
+
+/* || Header and main navigation - syling relating only to setting up the main navigation */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100vw;
+}
+
+.list-nav {
+    max-width: 800px;
+    width: 70%;
+    min-width: 560px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logo {
+    align-self: center;
+    max-width: 380px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+}
+
+/* || Media request */
+
+@media screen and (max-width: 850px) {
+    .burger {
+        display: inline-block;
+        min-width: 8vw;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .logo {
+        max-width: 70vw;
+    }
+
+    .main-header {
+        background-color: pink;
+    }
+
+    button.burger {
+        background-color: white;
+        border: none;
+    }
+}
+
+/* || Interactive toggle menu */
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overlay li{
+    width: 100vw;
+    display: flex;
+}
+
+.overlay h4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
