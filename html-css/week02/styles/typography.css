@@ -1,0 +1,61 @@
+/* || Imports */
+
+@font-face {
+    font-family: "Nunito-light";
+    font-style: normal;
+    font-weight: lighter;
+    src: url("../assets/fonts/nunito/Nunito-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito-regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../assets/fonts/nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito-bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/nunito/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/Pacifico/Pacifico-Regular.ttf") format("truetype")
+}
+
+/* || setting styles */
+
+h1 {
+    font-family: "Nunito-bold", sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Nunito-bold", sans-serif;
+    font-size: 2.6em;
+}
+
+h3 {
+    font-family: "Nunito-bold", sans-serif;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: "Nunito-bold", sans-serif;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: "Nunito-bold", sans-serif;
+    font-size: 1.25em;
+}
+
+p {
+    font-family: "Nunito-regular", sans-serif;
+    font-size: 1.25em;
+}
