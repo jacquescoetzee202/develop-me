@@ -30,6 +30,10 @@
 
 /* || setting styles */
 
+body {
+    font-family: "Nunito-light", sans-serif;
+}
+
 h1 {
     font-family: "Pacifico", sans-serif;
     font-size: var(--fontSizeL);

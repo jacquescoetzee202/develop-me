@@ -8,6 +8,7 @@
     <title>pattern.html</title>
 </head>
 <body>
+
     <h2>Typography.css-------</h2>
     <br>
     <br> 
@@ -22,12 +23,18 @@
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
+
+
     <h2>Button and links----</h2><br><br>
     <a href="#">Continue Reading</a><br><br>
     <a href="#" class="category">Catagorized</a><br><br>
     <a href="#" class="button">Send Message</a><br><br>
+
+
     <h2>Icon-------</h2>
     <img class="icon" src="assets/svg/icon.svg" alt="Search Button">
+
+
     <h2>Form--------</h2><br><br>
     <form action="">
         <label for="textarea">Message</label>
@@ -35,9 +42,14 @@
         <label for="name">Name *</label>
         <input id="name" type="text">
     </form>
+
+
     <br><br><h2>Imagery--------</h2>
     <img class="image" src="assets/images/penguin 1.webp" alt="Penguin on snowy rock about to jump inot the water"><br><br>
+
+
     <h2>----------Modules--------------</h2><br><br>
+
     <h2>Nav Bar------</h2>
     <ul class="nav-main">
         <li>
@@ -57,8 +69,10 @@
         </li>
     </ul>
     <br><br>
+
+
     <h2>Card Module-----------</h2>
-    <div class="card">
+    <article class="card">
         <img class="image" src="assets/images/penguin 1.webp" alt="Penguin on snowy rock about to jump inot the water">
         <section>
             <a href="#" class="category">Catagorized</a>
@@ -68,7 +82,9 @@
         <p class="posted">Posted on <time datetime="2020-06-07">June 7, 2020</time></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a href="#">Continue Reading</a>
-    </div><br><br>
+    </article><br><br>
+
+
     <h2>Widget--------</h2>
     <section class="widget">
         <h3>Title of links</h3>
@@ -84,10 +100,30 @@
             </li>
         </ul>
     </section>
+
+
     <h2>Hero ting--------</h2>
-    <section class="hero">
+    <div class="hero">
         <img class="image" src="assets/images/Hero.webp" alt="Profile picture of the photographer">
-        <h3>My name is Jo<span>.</span><br>I'm a </h3><h1 class="hero-text">photographer</h1>
-    </section>
+        <section class="hero-text">
+            <h3>My name is Jo<span class="to-dark-red">.</span><br>I'm a 
+            <span class="to-light-blue pacifico">photographer</span>
+            </h3>
+        </section>
+    </div>
+
+    
+    <h2>Contact form module--------</h2>
+    <form class="form-contact" action="">
+        <label for="textarea">Message</label>
+        <textarea id="textarea"></textarea>
+        <label for="name" required>Name *</label>
+        <input id="name" type="name">
+        <label for="e-mail">Email *</label>
+        <input id="e-mail" type="email">
+        <label for="website">Website</label>
+        <input id="website" type="url">
+        <input class="button" id="submit" type="submit" value="Send Message">
+    </form>
 </body>
 </html>

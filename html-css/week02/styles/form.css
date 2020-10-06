@@ -4,10 +4,15 @@ input, textarea, label {
     font-family: "Nunito-light", sans-serif;
     font-size: var(--fontSizeXS);
     color: var(--textColor);
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 textarea {
     resize: none;
+}
+
+.form-contact {
+    width: 70%;
+    margin-left: 1em;
 }

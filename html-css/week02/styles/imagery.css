@@ -3,15 +3,31 @@
     width: 100%;
 }
 
-.hero img, h3, h1 {
-    display: inline;
+/* || Hero molecule*/
+.hero {
+    position: relative;
+}
+
+.hero h3 {
     font-size: var(--fontSizeL);
 }
 
-.hero span {
+.hero-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.to-dark-red {
     color: var(--dark-red);
 }
 
-.hero-text {
+.to-light-blue {
     color: var(--light-blue);
 }
+
+.pacifico {
+    font-family: "Pacifico", sans-serif;
+}
+
