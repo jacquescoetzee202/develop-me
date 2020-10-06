@@ -1,0 +1,15 @@
+.widget {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widget h3, li {
+    margin-bottom: 1.5em;
+}
+
+.widget a {
+    color: var(--textColor);
+
+}

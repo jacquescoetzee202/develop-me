@@ -2,13 +2,26 @@
 
 @import 'typography.css';
 
-@import 'header.css';
+@import 'settings.css';
+
+@import 'button-links.css';
+
+@import 'form.css';
+
+@import 'imagery.css';
+
+@import 'nav.css';
+
+@import 'card.css';
+
+@import 'sidebar.css';
+
 
 @import 'banner.css';
 
 @import 'footer.css';
 
-@import 'card.css';
+
 
 @import 'gallery.css';
 

@@ -1,0 +1,13 @@
+input, textarea, label {
+    display: block;
+    width: 100%;
+    font-family: "Nunito-light", sans-serif;
+    font-size: var(--fontSizeXS);
+    color: var(--textColor);
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+textarea {
+    resize: none;
+}

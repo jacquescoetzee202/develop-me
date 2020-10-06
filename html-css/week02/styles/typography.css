@@ -1,24 +1,24 @@
 /* || Imports */
 
 @font-face {
-    font-family: "Nunito-light";
-    font-style: normal;
-    font-weight: lighter;
-    src: url("../assets/fonts/nunito/Nunito-ExtraLight.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "Nunito-regular";
     font-style: normal;
     font-weight: normal;
-    src: url("../assets/fonts/nunito/Nunito-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito-light";
+    font-style: normal;
+    font-weight: lighter;
+    src: url("../assets/fonts/Nunito/Nunito-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Nunito-bold";
     font-style: normal;
     font-weight: bold;
-    src: url("../assets/fonts/nunito/Nunito-Bold.ttf") format("truetype");
+    src: url("../assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -31,31 +31,53 @@
 /* || setting styles */
 
 h1 {
-    font-family: "Nunito-bold", sans-serif;
-    font-size: 3em;
+    font-family: "Pacifico", sans-serif;
+    font-size: var(--fontSizeL);
+    color: var(--textColor);
 }
 
 h2 {
     font-family: "Nunito-bold", sans-serif;
-    font-size: 2.6em;
+    font-size: var(--fontSizeXL);
+    color: var(--textColor);
+    background-color: var(--pinkBackground);
 }
 
 h3 {
     font-family: "Nunito-bold", sans-serif;
-    font-size: 2em;
+    font-size: var(--fontSizeM);
+    color: var(--textColor);
 }
 
 h4 {
-    font-family: "Nunito-bold", sans-serif;
-    font-size: 1.5em;
-}
-
-h5 {
-    font-family: "Nunito-bold", sans-serif;
-    font-size: 1.25em;
+    font-family: "Nunito-light", sans-serif;
+    font-size: var(--fontSizeS);
+    color: var(--textColor);
+    text-transform: uppercase;
 }
 
 p {
-    font-family: "Nunito-regular", sans-serif;
-    font-size: 1.25em;
+    font-family: "Nunito-light", sans-serif;
+    font-size: var(--fontSizeXS);
+    color: var(--textColor);
+    line-height: 2em;
 }
+
+.posted {
+    font-size: var(--fontSizeXXS);
+    color: var(--textColor);
+}
+
+a {
+    font-family: "Nunito-light", sans-serif;
+    color: var(--textColor);
+}
+
+ul {
+    text-decoration: underline;
+    font-family: "Nunito-light", sans-serif;
+    color: var(--textColor);
+}
+
+
+

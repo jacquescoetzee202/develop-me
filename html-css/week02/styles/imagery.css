@@ -1,0 +1,17 @@
+.image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero img, h3, h1 {
+    display: inline;
+    font-size: var(--fontSizeL);
+}
+
+.hero span {
+    color: var(--dark-red);
+}
+
+.hero-text {
+    color: var(--light-blue);
+}

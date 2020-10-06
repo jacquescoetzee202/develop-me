@@ -1,0 +1,13 @@
+.card {
+    width: 50%;
+    text-align: center;
+}
+
+.card .image, section, .posted {
+    margin-bottom: 1em;
+}
+
+.card p {
+    margin-bottom: 3em;
+}
+
