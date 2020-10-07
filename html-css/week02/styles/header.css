@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header__nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-search__nav {
+    align-content: center;
+    min-width: 300px;
+}
+
+
+.header__logo {
+    align-self: center;
+}

@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__tag {
+    margin-left: 1em;
+    margin-right: 1em;
+}

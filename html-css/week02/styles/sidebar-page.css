@@ -1,0 +1,15 @@
+.sidebar_page {
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
+}
+
+.sidebar_page__banner {
+    margin-bottom: 1.5em;
+}
+
+
+
+.sidebar_page__banner h2 {
+    padding: 1.5em 0 1.5em 0;
+    text-align: center;
+}
