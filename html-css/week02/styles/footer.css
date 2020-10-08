@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
+    padding: 1em;
 }
 
 .footer__tag {

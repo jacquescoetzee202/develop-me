@@ -45,7 +45,7 @@
     top: 50%;
     transform: translateY(-50%);
     left: 5%;
-    display: none;
+    display: block;
 }
 
 .to-dark-red {
@@ -58,10 +58,6 @@
 
 .pacifico {
     font-family: "Pacifico", sans-serif;
-}
-
-.hero:hover .hero-text {
-    display: block;
 }
 
 /* || Gallery */
@@ -112,3 +108,9 @@
     grid-area: h;
 }
 
+@media screen and (max-width: 500px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}

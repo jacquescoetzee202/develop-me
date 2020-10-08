@@ -21,3 +21,14 @@
     margin-bottom: 3em;
 }
 
+@media screen and (max-width: 500px) {
+    .cardlist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+

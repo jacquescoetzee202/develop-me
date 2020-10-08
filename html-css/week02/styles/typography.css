@@ -83,5 +83,12 @@ ul {
     color: var(--textColor);
 }
 
+a[href*=".html"] {
+    font-family: "Nunito-light", sans-serif;
+    font-size: var(--fontSizeS);
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
 
 
