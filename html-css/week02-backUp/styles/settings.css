@@ -1,0 +1,14 @@
+:root {
+    --pinkBackground: #FFF0E9;
+    --textColor: #4A4A4A;
+    --light-blue: #41CADD;
+    --dark-red: #FF6A7C;
+
+
+    --fontSizeXL: 3rem;
+    --fontSizeL: 2.25rem;
+    --fontSizeM: 1.5rem;
+    --fontSizeS: 1.125rem;
+    --fontSizeXS: 1rem;
+    --fontSizeXXS: 0.8rem;
+}

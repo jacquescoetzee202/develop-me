@@ -1,0 +1,19 @@
+.widget {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widget li {
+    margin-bottom: 1.5em;
+}
+
+.widget h3 {
+    margin-bottom: 1.5em;
+}
+
+.widget a {
+    color: var(--textColor);
+
+}

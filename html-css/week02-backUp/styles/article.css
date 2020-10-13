@@ -1,0 +1,11 @@
+.article *:nth-child(1n) {
+    padding-bottom: 1em;
+}
+
+.article p {
+    margin-bottom: 1.5em;
+}
+
+.article .category {
+    margin-right: 1.5em;
+}

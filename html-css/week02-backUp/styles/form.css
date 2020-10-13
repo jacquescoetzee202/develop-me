@@ -1,0 +1,30 @@
+input, textarea, label {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-family: "Nunito-light", sans-serif;
+    font-size: var(--fontSizeXS);
+    color: var(--textColor);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 10%;
+}
+
+textarea {
+    resize: none;
+    max-width: 100%;
+}
+
+.form-contact {
+    width: 70%;
+}
+
+.form-contact .button {
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .form-contact {
+        margin-right: 10em;
+    }
+}

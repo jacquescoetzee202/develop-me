@@ -1,0 +1,19 @@
+.column_page {
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
+}
+
+.column_page__banner {
+    margin-bottom: 1.5em;
+}
+
+.column_page__main {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;     
+}
+
+.column_page__banner h2 {
+    padding: 1.5em 0 1.5em 0;
+    text-align: center;
+}

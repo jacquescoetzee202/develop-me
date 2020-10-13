@@ -1,0 +1,33 @@
+.underline {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+.category {
+    text-decoration: none;
+    color: white;
+    background-color: var(--light-blue);
+    border-radius: 2px;
+    padding: 0 8px 0 8px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: var(--dark-red);
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 2px;
+    border: none;
+    max-width: 180px;
+}
+
+.icon__img {
+    background-color: var(--pinkBackground);
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/* || Socails */
+
+
