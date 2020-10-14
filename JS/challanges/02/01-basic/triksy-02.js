@@ -2,14 +2,15 @@ let skip = (skip, max) => {
     // ... your code here
     let total = 0;
     for (let i = 1; i < max; i += 1){
-        console.log(`BEFORE: i = ${i} total = ${total}`);
+
         if (i % skip === 0){
             total += 0;
         } else {
             total += i;
         }
-        console.log(`AFTER i = ${i} total = ${total}`);
+        
     }
+
     return total;
 }
 
