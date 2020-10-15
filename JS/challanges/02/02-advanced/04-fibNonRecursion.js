@@ -1,10 +1,8 @@
-let relativeFib = current => {
-    
-}
-
 let fibonacci = n => {
-    let currentFib;
-    let previousFib = 0;
+    // need to add all the varaibles n, n-1, n-2
+    let fibNn;
+    let fibN_1;
+    let fibN_2;
     for (i = 0; i <= n; i += 1){
         
         if (i === 0){
