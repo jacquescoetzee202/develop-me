@@ -15,7 +15,7 @@ let nextPrime = startNum => {
     let currentNum = startNum;
     
     while (!prime(currentNum)) {
-    currentNum += 1;
+        currentNum += 1;
     }
 
     return currentNum;
