@@ -10,3 +10,4 @@
     filteredTextBlocks.forEach(text => text.classList.add('redacted'));
 
 })(document);
+

@@ -2,10 +2,12 @@
 
     // || 02.
     let addClassTo = (className,selector) => {
-        if (d.querySelector(selector)){
-            return d.querySelector(selector).classList.add(className);
+        let element = d.querySelector(selector);
+
+        if (element){
+            return element.classList.add(className);
         } else {
-            return d.querySelector(selector);
+            return element;
         };
     }
 
