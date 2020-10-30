@@ -9,7 +9,7 @@
         li.innerText = todo.value;
         li.classList.add('list-group-item');
 
-        list.append(li);
+        list.prepend(li);
     });
 
 })(document);

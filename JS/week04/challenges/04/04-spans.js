@@ -4,8 +4,6 @@
     pixels.addEventListener('click' , event => {
         const clicked = event.target;
 
-        console.log(clicked.tagName);
-
         if (clicked.tagName === 'SPAN'){
 
             if (clicked.className === 'clicked') {

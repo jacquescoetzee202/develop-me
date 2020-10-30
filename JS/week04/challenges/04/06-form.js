@@ -1,9 +1,6 @@
 ((d) => {
     const button = d.getElementById('submit');
     const fields = [...d.querySelectorAll('.form-group')];
-    
-
-
 
     button.addEventListener('click' , event => {
         
